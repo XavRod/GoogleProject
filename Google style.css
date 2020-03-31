@@ -1,0 +1,150 @@
+
+
+
+
+h2
+{
+    width: 350px; /* fixe une largeur minimale*/
+    border: 1px solid lightgrey ;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    overflow: auto; /* si trop de texte, cela intègre une barre scroll*/
+}
+h3
+{
+    text-align: right;
+    min-width: 400px;
+}
+
+p
+{
+    font-size: 1em;
+    font-family: Ebrima;
+}
+
+
+}
+
+#general
+{   
+
+    display: flex;
+	justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#entête
+{
+ 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.element
+{
+ 
+    width: 50px;
+    text-align: center;
+    color: grey;
+    margin: 3px 3px 3px 3px;
+    font-size: 1em;
+    font-family: Ebrima;
+}
+
+#milieu
+{
+ 
+}
+
+h1
+{
+    text-align: center;
+    font-size: 5em;
+    font-family: Ebrima;
+}
+
+.box
+{
+ 
+    align-items: center; 
+    text-align: center;
+}
+
+#ssbox
+{
+ 
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.ssbox
+{
+ 
+    width: 150px;
+    text-align: center;
+    color: grey;
+    background-color: #e4e4e4;
+    margin: 3px 3px 3px 3px;
+    font-size: 1em;
+    font-family: Ebrima;
+}
+
+#SSbox
+{
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.SSbox
+{
+
+    font-size: 0.9em;
+    font-family: Ebrima;
+}
+
+#fin
+{
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#conteneur
+{
+ 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.element1
+{
+
+    text-align: center;
+    color: grey;
+    margin: 3px 3px 3px 3px;
+    font-size: 1em;
+    font-family: Ebrima;
+}
+
+
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: black;
+}
+
+footer
+{
+    background-color: lightgrey;
+    align-items: flex-end;
+}
